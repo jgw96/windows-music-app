@@ -12,12 +12,15 @@ html, body {
   padding: 0;
   margin: 0;
   background: #181818;
+
+  overflow: hidden;
 }
 
 @media (prefers-color-scheme: dark) {
   html,
   body {
     background: #181818;
+    color: white;
   }
 
   fluent-design-system-provider {
